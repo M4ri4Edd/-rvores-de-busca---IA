@@ -9,8 +9,8 @@ class CidadeComDistancia {
         this.vizinhos = []; 
     }
 
-    adicionarVizinho(vizinho) {
-        this.vizinhos.push({cidade: vizinho});
+    adicionarVizinho(vizinho, distancia) {
+        this.vizinhos.push({cidade: vizinho, custo: distancia});    
     }
 }
 
